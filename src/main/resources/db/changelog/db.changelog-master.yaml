@@ -1,0 +1,17 @@
+databaseChangeLog:
+  - include:
+        file: db/changelog/changeset/categories/categories_V001__initial.sql
+  - include:
+        file: db/changelog/changeset/categories/categories_V002__data.sql
+  - include:
+      file: db/changelog/changeset/users/users_V001__initial.sql
+  - include:
+      file: db/changelog/changeset/users/users_V002__data.sql
+  - include:
+      file: db/changelog/changeset/articles/articles_V001__initial.sql
+  - include:
+      file: db/changelog/changeset/articles/articles_V002__data.sql
+  - include:
+      file: db/changelog/changeset/reviews/reviews_V001_initial.sql
+  - include:
+      file: db/changelog/changeset/reviews/reviews_V002__data.sql
